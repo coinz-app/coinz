@@ -1,0 +1,71 @@
+.Add { 
+    display: flex;
+    flex-direction: column;
+    background: white;
+    height: 70%;
+    position: relative;
+}
+
+.info {
+    display: flex;
+    height: 10%;
+    border-bottom: 1px lightgrey solid;
+}
+
+.name-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 75%;
+    height: 100%;
+}
+
+.name-container input {
+    width: 100%;
+    height: 90%;
+    border: none;
+    padding-left: 30px;
+    color: #92aed1;
+    font-size: 1.5em;
+}
+
+.amount-container {
+    display: flex;
+    width: 25%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.amount-container input {
+    width: 100%;
+    height: 90%;
+    text-align: center;
+    border: none;
+    font-size: 1.5em;
+    border-left: 1px lightgrey solid;
+}
+
+.description {
+    height: 75%;
+    font-size: 1.5em;
+    border: none;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.add-button {
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    height: 15%;
+    background-color: #92aed1;
+    position: absolute;
+    bottom: 0;
+    font-size: 1.5em;
+    width: 100%;
+}
+
+
+

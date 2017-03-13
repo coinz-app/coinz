@@ -1,5 +1,19 @@
 body {
+  background-color: #92aed1;
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-size: 1em;
+  font-family: 'PT Sans', 'Arial', sans-serif;
+}
+
+.hide {
+  display: none;
+}
+
+.flex-left {
+  justify-content: flex-start;
+}
+
+.flex-right {
+  justify-content: flex-end;
 }
