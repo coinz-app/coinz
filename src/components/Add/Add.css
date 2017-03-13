@@ -44,6 +44,7 @@
     border: none;
     font-size: 1.5em;
     border-left: 1px lightgrey solid;
+    color: #767676;
 }
 
 .description {
@@ -52,6 +53,7 @@
     border: none;
     padding-top: 10px;
     padding-left: 30px;
+    color: #767676;
 }
 
 .add-button {
