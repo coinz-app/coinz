@@ -14,7 +14,7 @@ class Add extends Component {
                     </div>
                 </div>
                 <textarea placeholder="For what?" className="description"></textarea>
-                <button className="add-button">ADD</button>
+                <button className="add-button">Add</button>
             </form>
         );
     }
