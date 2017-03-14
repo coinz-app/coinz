@@ -1,4 +1,29 @@
 .history-item {
     border-bottom: 1px solid lightgrey;
-    height: 75px;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+}
+
+.history-item-left {
+    width: 60%;
+    padding: 10px;
+}
+
+.history-item-right {
+    padding: 10px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: right;
+}
+
+.history-item-name {
+    color: #92aed1;
+    margin-bottom: 5px;
+}
+
+.history-item-amount {
+    color: red;
 }
